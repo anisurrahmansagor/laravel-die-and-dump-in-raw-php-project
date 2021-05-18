@@ -1,4 +1,4 @@
-# laravel-die-and-dump-in-raw-php-project
+# Use Laravel's die and dump in raw php project
 Use Laravel's dd() and dump() function in your raw php project.
 
 ## Uses
