@@ -1,7 +1,7 @@
 # Use Laravel's die and dump in raw php project
 Use Laravel's dd() and dump() function in your raw php project.
 
-## Uses
+## Uses:
 * View well formatted output of php's Variable, Array, Object etc.
 
 	#### dump()
@@ -10,10 +10,10 @@ Use Laravel's dd() and dump() function in your raw php project.
 	#### dd()
 	Show the formatted output and terminates execution of the script.
 
-## Installation
+## Installation:
   Just incude or require the 'vendor/autoload.php' file and then you can call dd() and dump() function.
 
-### Examplecode
+### Examplecode:
   
 ```php
 <?php
@@ -39,7 +39,7 @@ Use Laravel's dd() and dump() function in your raw php project.
 	dd($array); // Calling dd()
 ?>
 ```
-### Output
+### Output:
 
 ![Image of Yaktocat](https://raw.githubusercontent.com/anisurrahmansagor/lravel-die-and-dump-in-raw-project/master/Output.jpg)
 
