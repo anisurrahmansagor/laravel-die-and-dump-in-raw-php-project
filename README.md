@@ -3,7 +3,7 @@ Use Laravel's dd() and dump() function in your raw php project.
 View well formatted output of php's Variable, Array, Object etc.
 
 ## Installation
-  Just incude or require this file 'vendor/autoload.php' and call dd() or dump().
+  Just incude or require the 'vendor/autoload.php' file and then you can call dd() and dump() function.
 
 ### Examplecode
   
