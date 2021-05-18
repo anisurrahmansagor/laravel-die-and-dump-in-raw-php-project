@@ -1,4 +1,4 @@
-# lravel-die-and-dump-in-raw-php-project
+# laravel-die-and-dump-in-raw-php-project
 Use Laravel's dd() and dump() function in your raw php project.
 View well formatted output of php's Variable, Array, Object etc.
 
