@@ -17,7 +17,7 @@ Use Laravel's dd() and dump() function in your raw php project.
   
 ```php
 <?php
-	require 'vendor/autoload.php';// include or require this file so that you can use dd(), dump()
+	require __DIR__ . '/vendor/autoload.php'; // include or require this file so that you can use dd(), dump()
 
 	class Example{
 		public $country = "Bangladesh";
@@ -26,7 +26,7 @@ Use Laravel's dd() and dump() function in your raw php project.
 	}
 
 	$object = new Example;
-	dump($object);// Calling dump()
+	dump($object); // Calling dump()
 
 	$array = [
 		'name'=>'abc',
@@ -36,7 +36,7 @@ Use Laravel's dd() and dump() function in your raw php project.
 			'country'=>'Bangladesh'
 		]
 	];
-	dd($array);// Calling dd()
+	dd($array); // Calling dd()
 ?>
 ```
 ### Output
